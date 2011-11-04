@@ -1,3 +1,9 @@
+# revision 16596
+# category Package
+# catalog-ctan /macros/latex/contrib/ms
+# catalog-date 2008-11-14 13:05:11 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-ms
 Version:	20081114
 Release:	1
@@ -78,6 +84,7 @@ hyphenation.
 %doc %{_texmfdistdir}/source/latex/ms/ragged2e.drv
 %doc %{_texmfdistdir}/source/latex/ms/ragged2e.dtx
 %doc %{_texmfdistdir}/source/latex/ms/ragged2e.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -88,3 +95,5 @@ hyphenation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
