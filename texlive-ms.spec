@@ -1,4 +1,4 @@
-# revision 16596
+# revision 24467
 # category Package
 # catalog-ctan /macros/latex/contrib/ms
 # catalog-date 2008-11-14 13:05:11 +0100
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ms
 Version:	20081114
-Release:	1
+Release:	2
 Summary:	Various LaTeX packages by Martin Schroder
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ms
