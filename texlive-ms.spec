@@ -84,3 +84,21 @@ hyphenation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081114-3
++ Revision: 754177
+- Rebuild to reduce used resources
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081114-2
++ Revision: 729685
+- texlive-ms
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081114-1
++ Revision: 719073
+- texlive-ms
+- texlive-ms
+- texlive-ms
+- texlive-ms
+
