@@ -1,12 +1,12 @@
-# revision 24467
+# revision 29849
 # category Package
 # catalog-ctan /macros/latex/contrib/ms
-# catalog-date 2008-11-14 13:05:11 +0100
+# catalog-date 2012-05-24 17:58:39 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-ms
-Version:	20081114
-Release:	3
+Version:	20120524
+Release:	1
 Summary:	Various LaTeX packages by Martin Schroder
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ms
@@ -84,21 +84,3 @@ hyphenation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081114-3
-+ Revision: 754177
-- Rebuild to reduce used resources
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081114-2
-+ Revision: 729685
-- texlive-ms
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081114-1
-+ Revision: 719073
-- texlive-ms
-- texlive-ms
-- texlive-ms
-- texlive-ms
-
