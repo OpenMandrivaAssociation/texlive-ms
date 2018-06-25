@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-ms
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Various LaTeX packages by Martin Schroder
 Group:		Publishing
