@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ms
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Various LaTeX packages by Martin Schroder
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ms
